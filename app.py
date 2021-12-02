@@ -10,7 +10,7 @@ debug = DebugToolbarExtension(app)
 
 @app.route("/")
 def ask_questions():
-    """Makes form to ask words."""
+    """Makes form that user places words."""
     prompts = story.prompts
     return render_template("questions.html", prompts=prompts)
 

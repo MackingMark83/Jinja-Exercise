@@ -40,6 +40,7 @@ class Story:
 
 story = Story(
     ["place", "noun", "verb", "adjective", "plural_noun"],
-    """Once upon a time in a long-ago {place}, there lived a
-       large {adjective} {noun}. It loved to {verb} {plural_noun}."""
+    """One Day last week in {place}, there was a 
+       large {adjective} {noun}. It destroyed everything {verb} {plural_noun}."""
 )
+
